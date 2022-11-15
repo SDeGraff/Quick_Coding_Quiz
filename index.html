@@ -12,18 +12,36 @@
         <button class="high">High Scores</button>
         <p class="timer">Timer: 00:00</p>
     </section>
+
     <main class="container" >
+
     <section>
        <div class="intro" id="intro">
         <h1>Quick Coding Quiz Challenge</h1>    
-        <p>Here are a few coding related questions for you to answer. Get as many as you can right in before the timer goes off.</p>
+        <p>Here are a few coding related questions for you to answer. Get as many as you can right before the timer goes off.</p>
         <button id="start">Start Quiz</button>
        </div>
     </section>
+
     <section class="hide" id="questions">
         <h2 id="quest-title"></h2>
         <div id="choices" class="choices"></div>    
     </section>
+
+    <section class="hide" id="finished">
+        <h2>All Done!</h2>
+        <p>Your Final Score is <span id="finalScore"></span></p>
+        <p>Enter Initials <input type="text" id="initials" max="3"/>
+        <button id="submit">Submit</button>
+        </p>
+    </section>
+
+    <section id="feedback" class="feedback hide"></section>
     </main>
+
+    <script src=""></script>
+    <script src=""></script>
+
 </body>
+
 </html>

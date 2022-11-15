@@ -29,14 +29,31 @@ body {
 
 /* Quiz container */
 .container {
-    /* height: 100%;
-    width: 50%; */
-    display: flex;
-    background-color: aqua;
-    color: black;
+   margin: 100px auto 0 auto;
+   max-width: 600px;
+
 }
 
 .intro {
-    
+    text-align: center;
 }
+
+.hide  {
+    display: none;
+}
+
+.choices {
+
+}
+
+.feedback {
+    font-style: italic;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: grey;
+    border-top: 2px solid (rgb 201, 193, 193);
+}
+
+
 
