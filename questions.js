@@ -1,42 +1,47 @@
-
-
-
 var questions = [
-    {
-        title: "Which one is a looping structure in Javascript?",
-        choices:["For", "while", "do-while Loops", "All The Above"],
-        answer: "All The Above"
+    { 
+        question: "How do you write 'Hello World' in an alert box?", 
+        answers: [
+            { text: "msg('Hello World')", correct: false },
+            { text: "alert('Hello World')" , correct: true },
+            { text: "prompt('Hello World')", correct: false },
+            { text: "alertBox('Hello World')", correct: false }
+        ]
     },
-    {
-        title:
-        "String values must be enclosed within ____ when being assigned to variables.",
-        choices: ["commas", "curly brackets", "quotes", "parentheses"],
-        answer: "quotes"
+    { 
+        question: "Which of the following function of Array object calls a function for each element in the array?", 
+        answers: [
+            { text: "concat()", correct: false },
+            { text: "filter()", correct: false },
+            { text: "forEach()", correct: true },
+            { text: "split()", correct: false }
+        ]
     },
-    {
-        title: "Arrays in JavaScript can be used to store ____.",
-        choices: [
-          "numbers and strings",
-          "other arrays",
-          "booleans",
-          "all of the above"
-        ],
-        answer: "all of the above"
+    { 
+        question: "How to write an IF statement for executing some code if 'i' is NOT equal to 8?", 
+        answers: [
+            { text: "if (i != 8)", correct: true },
+            { text: "if i =! 8", correct: false },
+            { text: "if (i <> 8)", correct: false },
+            { text: "if (i !=== 8)", correct: false }
+        ]
     },
-    {
-        title: "Boolean operators that can be used in JavaScript include:",
-        choices: [
-          "'And' Operator &&",
-          "'Or' Operator ||",
-          "'Not' Operator !",
-          "All the above"
-        ],
-        answer: "All the above"
+    { 
+        question: "What is the correct way to write a JavaScript array?", 
+        answers: [
+            { text: "var vegetable = (0:'kale', 1:'lettuce', 2:'spinach')", correct: false },
+            { text: "var vegetable = ['kale', 'lettuce', 'spinach']", correct: true },
+            { text: "var vegetable = (kale, lettuce, spinach)", correct: false },
+            { text: "None of the above", correct: false }
+        ]
     },
-    {
-        
-         title: "Commonly used data types DO NOT include:",
-         choices: ["strings", "booleans", "alerts", "numbers"],
-         answer: "alerts"
+    { 
+        question: "How do you round the number 102.456, to the nearest integer?",
+        answers: [
+            { text: "Math.random(102.456)", correct: false },
+            { text: "Math.rnd(102.456)", correct: false },
+            { text: "round(102.456)", correct: false },
+            { text: "None of the above", correct: true }
+        ]
     },
 ];
